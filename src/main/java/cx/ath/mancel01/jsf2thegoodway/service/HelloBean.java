@@ -1,6 +1,6 @@
 package cx.ath.mancel01.jsf2thegoodway.service;
 
-import javax.ejb.Singleton;
+import javax.ejb.Stateless;
 
 /**
  * Boundary for business logic. Here you can inject your persitence
@@ -9,7 +9,7 @@ import javax.ejb.Singleton;
  * 
  * @author Mathieu ANCELIN - SERLI (mathieu.ancelin@serli.com)
  */
-@Singleton
+@Stateless
 public class HelloBean {
 
     public String sayHello(String name) {
