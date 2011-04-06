@@ -11,8 +11,10 @@ import javax.enterprise.inject.Stereotype;
 import javax.inject.Named;
 
 /**
+ * Stereotype for Presenter bean. The presenter bean is responsible for
+ * UI logic.
  *
- * @author mathieuancelin
+ * @author Mathieu ANCELIN - SERLI (mathieu.ancelin@serli.com)
  */
 @Named
 @RequestScoped

@@ -11,8 +11,10 @@ import javax.enterprise.inject.Stereotype;
 import javax.inject.Named;
 
 /**
+ * Stereotype for View bean. The view bean is responsible for
+ * UI data.
  *
- * @author mathieuancelin
+ * @author Mathieu ANCELIN - SERLI (mathieu.ancelin@serli.com)
  */
 @Named
 @RequestScoped

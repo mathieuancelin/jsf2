@@ -2,12 +2,17 @@ package cx.ath.mancel01.jsf2thegoodway;
 
 import cx.ath.mancel01.jsf2thegoodway.annotation.View;
 
+/**
+ * Data displayed in the view.
+ * 
+ * @author Mathieu ANCELIN - SERLI (mathieu.ancelin@serli.com)
+ */
 @View
 public class MyView {
 
     private String name;
 
-    private String message = "";
+    private String message = "Please enter your name ...";
 
     public String getName() {
         return name;
@@ -24,5 +29,4 @@ public class MyView {
     public void setMessage(String message) {
         this.message = message;
     }
-
 }

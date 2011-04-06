@@ -5,6 +5,12 @@ import cx.ath.mancel01.jsf2thegoodway.service.HelloBean;
 import javax.ejb.EJB;
 import javax.inject.Inject;
 
+/**
+ * The presenter bean responsible for UI logique. It manipulate the
+ * current view bean and interact with business boundary.
+ *
+ * @author Mathieu ANCELIN - SERLI (mathieu.ancelin@serli.com)
+ */
 @Presenter
 public class MyPresenter {
 
@@ -15,5 +21,4 @@ public class MyPresenter {
     public void sayHello() {
         view.setMessage(hello.sayHello(view.getName()));
     }
-
 }
