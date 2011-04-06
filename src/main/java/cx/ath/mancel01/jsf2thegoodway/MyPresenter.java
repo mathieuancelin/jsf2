@@ -14,11 +14,11 @@ import javax.inject.Inject;
 @Presenter
 public class MyPresenter {
 
-    @Inject MyView view;
+    @Inject MyView myView;
 
-    @EJB HelloBean hello;
+    @EJB HelloBean helloBean;
 
     public void sayHello() {
-        view.setMessage(hello.sayHello(view.getName()));
+        myView.setMessage(helloBean.sayHello(myView.getName()));
     }
 }
